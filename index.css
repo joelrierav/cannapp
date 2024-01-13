@@ -1,0 +1,168 @@
+body{
+    background: linear-gradient(to bottom, #fbbc17, white);
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.flex-container h1 {
+    margin-left:  35px;
+    font-size: 24px;
+    margin-right: auto
+}
+
+.flex-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 180px;
+    margin-left: 350px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-style: 24px;
+    color: black;
+
+}
+
+.flex-container li {
+    padding: 0px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+
+.promotions-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según sea necesario */
+    margin-top: -110px; /* Ajusta el margen superior para acercarla al header */
+    margin-bottom: 0px;
+
+}
+
+.text-section {
+    flex: 1; /* Hace que ocupe el 50% del ancho disponible */
+    max-width: 600px; /* Ajusta el ancho máximo según sea necesario */
+    text-align: center;
+}
+
+.image-section {
+    flex: 1; /* Hace que ocupe el 50% del ancho disponible */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+}
+
+.promotions-section h3 {
+    margin-top: 0;
+    margin-bottom: 5px; /* Ajusta el espacio entre el título y el primer párrafo */
+    text-align: center;
+    font-size: 100px;
+}
+
+.promotions-section p:first-child {
+    margin-top: 0; /* Elimina el margen superior del primer párrafo */
+    font-size: 25px; /* Ajusta el tamaño de la letra según sea necesario */
+    
+}
+
+.promotions-section p {
+    font-size: 25px;
+    
+} 
+
+.promotions-section img {
+    max-width: 100%; /* Ajusta el ancho máximo según sea necesario */
+    height: auto;
+    margin-bottom: 0px;
+    border-radius: 30px;
+
+}
+
+.promotions-section hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#Boton {
+    background-color: #fbbc17;
+    border: solid 1px black;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    width: 500px;
+}
+
+#Boton:hover {
+    background-color: black; /* Cambia el color de fondo cuando el mouse está encima */
+    color: #fbbc17; /* Cambia el color del texto cuando el mouse está encima */
+}
+
+}
+.pie-de-pagina{
+    margin-top: 0;
+    width-max: 100%;
+    height: auto;
+    border: solid black 3px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+.gestionsocial {
+    display: flex;
+    margin-left: 5px;
+    margin-top: -50px;
+}
+
+.gestionsocialimagen {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.gestionsocialimagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    
+}
+
+.gestionsocialtitulo {
+    flex: 1;
+    font-size: 40px;
+    text-align: center;
+    display: flex; /* Activa la propiedad flex en el contenedor del título y el párrafo */
+    flex-direction: column; /* Establece la dirección de la columna para alinear verticalmente */
+    justify-content: center;
+    align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Añade estilos adicionales según sea necesario */
+.gestionsocialtitulo h4 {
+    margin-top: 0;
+}
+
+.gestionsocialtitulo p {
+    flex: 1;
+    margin-bottom: 5px;
+    font-size: 35px;
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+
+
